@@ -121,7 +121,7 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: theme.spacing(10),
   },
   root: {
-    backgroundColor: "#f3efcd",
+    backgroundColor: "#171717",
     width: "100%",
   },
   verticallyCenterContent: {

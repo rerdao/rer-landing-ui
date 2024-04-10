@@ -2,13 +2,13 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const useDialectStyles = makeStyles((theme) => ({
   primaryBg: {
-    backgroundColor: '#164120',
+    backgroundColor: '#5C5C5A',
   },
   primaryText: {
-    color: '#f3efcd',
+    color: '#171717',
   },
   highlight: {
-    color: '#f3efcd',
+    color: '#171717',
     backgroundColor: '#184623',
   },
   bold: {
@@ -16,7 +16,7 @@ export const useDialectStyles = makeStyles((theme) => ({
   },
   notificationButton: {
     backgroundColor: '#184623',
-    color: '#f3efcd',
+    color: '#171717',
     width: theme.spacing(5),
     height: theme.spacing(5),
   },
@@ -37,12 +37,12 @@ export const useDialectStyles = makeStyles((theme) => ({
     borderColor: '#184623',
   },
   button: {
-    backgroundColor: '#f3efcd',
+    backgroundColor: '#171717',
     color: '#254526',
     borderColor: '#184623',
   },
   logo: {
-    color: '#f3efcd',
+    color: '#171717',
     backgroundColor: '#184623',
     '& svg': {
       marginTop: theme.spacing(0.4),
@@ -57,23 +57,23 @@ export const useDialectStyles = makeStyles((theme) => ({
   },
   input: {
     border: 'none',
-    color: '#f3efcd'
+    color: '#171717'
   },
   outlinedInput: {
     color: '#738668',
-    borderColor: '#246A35',
+    borderColor: '#FFFFFF',
     '&:focus-within': {
-      borderColor: '#246A35',
+      borderColor: '#FFFFFF',
       backgroundColor: '#ababab20',
       outline: 'none',
       borderStyle: 'dashed'
     },
   },
   divider: {
-    backgroundColor: '#246A35'
+    backgroundColor: '#FFFFFF'
   },
   adornmentButton: {
-    color: '#f3efcd',
+    color: '#171717',
     backgroundColor: '#184623',
   },
   toggleBackground: {

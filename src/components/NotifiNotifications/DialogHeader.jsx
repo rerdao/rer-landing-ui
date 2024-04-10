@@ -10,7 +10,7 @@ const useStyles = makeStyles(() => ({
       width: "100%",
       textAlign: "center",
       backgroundColor: "#498D5E",
-      color: "#ffffff",
+      color: "#FFFFFf",
       borderRadius: `15px 15px 0 0`,
   },
   arrowButton: {

@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: 'Space Grotesk, serif',
   },
   bananasBackground: {
-    backgroundColor: '#ffff',
+    backgroundColor: 'rgba(25, 29, 32, 0.95)',
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     width: '100%',
@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heroTitle: {
-    color: '#184623',
+    color: '#FFFFFF',
     flexGrow: 1,
     fontWeight: '600',
     marginTop: 0,
@@ -72,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
   },
   heroContent: {
     fontFamily: 'Space Grotesk',
-    color: '#184623',
+    color: '#FFFFFF',
     marginTop: theme.spacing(2.5),
     padding: 0,
     fontSize: 18,
@@ -98,28 +98,28 @@ const useStyles = makeStyles((theme) => ({
   walletPaper: { // The solana wallet ui uses mui v5, so the theme doesn't work and we need specific selectors
     borderRadius: '8px !important',
     '& .MuiDialogTitle-root': {
-      backgroundColor: '#184623 !important',
-      color: '#f3efcd',
+      backgroundColor: '#FFFFFF !important',
+      color: '#171717',
       fontFamily: ['Space Grotesk', 'serif'].join(','),
       '& .MuiIconButton-root': {
-        color: '#f3efcd !important'
+        color: '#171717 !important'
       }
     },
     '& .MuiDialogContent-root': {
-      backgroundColor: '#f3efcd !important',
+      backgroundColor: '#171717 !important',
       paddingBottom: '8px !important',
       '& .MuiList-root': {
-        backgroundColor: '#f3efcd !important',
+        backgroundColor: '#171717 !important',
         padding: 0,
       },
       '& .MuiListItem-root': {
         '& .MuiButton-root': {
-            color: '#184623 !important',
+            color: '#FFFFFF !important',
             fontFamily: ['Space Grotesk', 'serif'].join(','),
             textTransform: 'none !important',
         },
         '& .MuiSvgIcon-root': {
-            color: '#184623 !important',
+            color: '#FFFFFF !important',
         },
       },
     },

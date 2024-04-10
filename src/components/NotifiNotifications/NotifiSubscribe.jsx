@@ -52,7 +52,7 @@ const theme = createTheme({
     MuiPaper: {
       root: {
         backgroundColor: "#184623",
-        color: "#f3efcd",
+        color: "#171717",
       },
       rounded: {
         borderRadius: 8,
@@ -107,7 +107,7 @@ const theme = createTheme({
 const useStyles = makeStyles((theme) => ({
   appBar: {
     borderBottom: `1px solid ${theme.palette.divider}`,
-    backgroundColor: "#f3efcd",
+    backgroundColor: "#171717",
     height: 86,
     "&.sm": {
       height: "auto",
@@ -127,7 +127,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "2px 0 2px 0",
     textAlign: "center",
     fontSize: "16px",
-    color: "#f3efcd",
+    color: "#171717",
     width: "100%",
     lineHeight: "2em",
     fontFamily: ["Space Grotesk", "serif"].join(","),
@@ -275,11 +275,11 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 18,
     fontFamily: "Space Grotesk",
     backgroundColor: "#194824",
-    color: "#f3efcd",
+    color: "#171717",
     borderRadius: 18,
   },
   root: {
-    backgroundColor: "#f3efcd",
+    backgroundColor: "#171717",
     width: "100%",
   },
   checkbox: {

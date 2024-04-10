@@ -106,8 +106,8 @@ const useStyles = makeStyles((theme) => ({
   wrapper: { position: "relative" },
   modalWrapper: {},
   announcementsButton: {
-    color: "#f3efcd !important",
-    backgroundColor: "#164120 !important",
+    color: "#171717 !important",
+    backgroundColor: "#5C5C5A !important",
   },
   announcementsLogo: {
     marginRight: 8,
@@ -124,12 +124,12 @@ const useStyles = makeStyles((theme) => ({
     gap: '20px',
   },
   selectionWrapper: {
-    color: "#f3efcd",
+    color: "#171717",
     fontFamily: "Space Grotesk",
     fontWeight: "600",
     position: "absolute",
     right: 0,
-    backgroundColor: "#164120",
+    backgroundColor: "#5C5C5A",
     padding: "1rem",
     borderRadius: 10,
     display: "flex",

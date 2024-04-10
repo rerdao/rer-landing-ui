@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
   '@global': {},
   appBar: {
     borderBottom: `1px solid ${theme.palette.divider}`,
-    backgroundColor: '#f3efcd',
+    backgroundColor: '#171717',
     height: 86,
     '&.sm': {
       height: 'auto',
@@ -43,11 +43,11 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   intro: {
-    background: 'linear-gradient(to right, #ffc919, #184623)',
+    background: 'linear-gradient(to right, #2d2e2d, #111211)',
     padding: '2px 0 2px 0',
     textAlign: 'center',
     fontSize: '16px',
-    color: '#f3efcd',
+    color: '#171717',
     width: '100%',
     lineHeight: '2em',
     fontFamily: ['Space Grotesk', 'serif'].join(','),
@@ -129,7 +129,7 @@ const useStyles = makeStyles((theme) => ({
     padding: '8px 16px',
   },
   walletButton: {
-    backgroundColor: '#164120 !important'
+    backgroundColor: '#5C5C5A !important'
   },
   stakeLink: {
     color: 'white',

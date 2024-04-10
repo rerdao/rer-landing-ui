@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: theme.spacing(12),
   },
   footerText: {
-    color: "#f3efcd",
+    color: "#171717",
     textAlign: "center",
     marginTop: theme.spacing(3),
     fontFamily: "Space Grotesk",

@@ -10,7 +10,7 @@ const theme = createTheme({
       main: "#184623",
     },
     secondary: {
-      main: "#f3efcd",
+      main: "#171717",
     },
   },
 });
@@ -18,7 +18,7 @@ const theme = createTheme({
 const useStyles = makeStyles((theme) => ({
   container: {
     backgroundColor: "#184623",
-    color: "#f3efcd",
+    color: "#171717",
     paddingTop: theme.spacing(10),
     paddingBottom: theme.spacing(10),
   },
@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
   },
   solanabeach: {
     display: "inline-block",
-    backgroundColor: "#f3efcd",
+    backgroundColor: "#171717",
     borderRadius: "8px",
     padding: "12px 16px",
     color: "black",

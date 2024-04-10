@@ -12,7 +12,7 @@ import { useMediaQuery } from "@material-ui/core";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#2A90E8",
+      main: "#00000",
     },
     secondary: {
       main: "#184623",
@@ -32,11 +32,11 @@ const useStyles = makeStyles((theme) => ({
     "&:hover": {
       boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)",
     },
-    fontColor: "#f3efcd",
+    fontColor: "#171717",
     backgroundColor: "#184623",
   },
   cardText: {
-    color: "#f3efcd",
+    color: "#171717",
     fontFamily: "Space Grotesk",
     fontWeight: "500",
     fontSize: 18,
@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "600",
     fontSize: 24,
     marginBottom: 24,
-    color: '#f3efcd'
+    color: '#171717'
   },
   cardButtons: {
     display: "flex",
@@ -60,14 +60,14 @@ const useStyles = makeStyles((theme) => ({
     padding: 40,
     textAlign: "left",
     backgroundColor: '#184623',
-    color: "#f3efcd",
+    color: "#171717",
     margin: "auto",
     transition: "0.3s",
     boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
     "&:hover": {
       boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)",
     },
-    fontColor: "#f3efcd",
+    fontColor: "#171717",
     width: "100%",
     maxWidth: 496,
     "&.small": {
@@ -113,7 +113,7 @@ const cards = [
     buttonImageBefore: true,
     buttonAlt: "Discord logo",
     bg: "#184623",
-    buttonColor: "#f3efcd",
+    buttonColor: "#171717",
     buttonTextColor: "#184623",
     buttonUrl: "https://discord.gg/TscZwJ7jbX"
   },
@@ -125,7 +125,7 @@ const cards = [
     buttonImage: "/smb-market.svg",
     buttonAlt: "SMB Market Logo",
     bg: "#184623",
-    buttonColor: "#f3efcd",
+    buttonColor: "#171717",
     buttonTextColor: "#184623",
     buttonUrl: "https://market.solanamonkey.business/",
   },
@@ -138,7 +138,7 @@ const cards = [
       We were the the first DAO to launch a validator on Solana, and now we’re the first to launch a staking pool. All of the SOL staked in DAOPool is distributed to the Solana communities’ validators, with the goal of further decentralizing the network while supporting all DAOs across the ecosystem.`,
     bg: "#184623",
     buttonText: "Visit DAOPool →",
-    buttonColor: "#f3efcd",
+    buttonColor: "#171717",
     buttonTextColor: "#184623",
     buttonUrl: "https://daopool.monkedao.io/",
     externalLink: true
